@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+	background-color: #333;
+}
+
+h1{
+	font-weight: 900;
+}
+
+h2 {
+    text-align: left;
+    font-weight: 500;
+}
+
+#content {
+    width: 80%;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    border-radius: 7px;
+    margin-bottom: 6em;
+}
+
+header {
+    width: 89%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+#content header h1 {
+    font-weight: 500;
+    color: #49ba6e;
+}
+
+#content #section_1 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+#poster {
+    float: left;
+    position: relative;
+    width: 25%;
+}
+
+#poster img {
+    height: 380px;
+    width: 257px;
+}
+
+#dados-filme {
+    float: right;
+    position: relative;
+    width: 65%;
+}
+
+#dados-filme li {
+    list-style-type: none;
+    line-height: 250%;
+    padding-right: 1em;
+    text-align: left;
+}
+
+.dados_1 {
+    float: left;
+    position: relative;
+    font-weight: 500;
+    color: #000;
+}
+
+.dados_2 {
+    float: left;
+    color: #888;
+}
+
+#content #section_2,
+#section_3,
+#section_4 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+#section_2 p {
+    text-align: justify;
+    line-height: 170%;
+}
+
+#section_3 li {
+    list-style-type: none;
+}
+
+#trailer {
+    float: left;
+    position: relative;
+    width: 47%;
+}
+
+#elenco {
+    float: right;
+    width: 52%;
+}
+
+#elenco ul,
+h2 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#elenco ul {
+    padding-top: 1em;
+    text-align: center;
+    float: left;
+}
+
+#elenco ul li {
+    list-style-type: none;
+    font-size: 11px;
+}
+
+#section_4 ul {
+    padding-top: 2em;
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+    margin-left: 3em;
+}
+
+#section_4 ul img {
+    width: 100%;
+    height: 100%;
+}
+
+#section_4 ul li {
+    list-style-type: none;
+}
+
+footer {
+    margin: 2em 0 1em 0;
+    font-size: 13px;
+}
+
+.clear {
+    clear: both;
+}
+
+h1,h2 {
+    margin: 0;
+    margin-bottom: 1em;
+}
